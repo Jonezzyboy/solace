@@ -3,6 +3,8 @@
 
 ## Build Setup
 
+Locate the files then run this commands within the folder.
+
 ``` bash
 # install dependencies
 npm install
