@@ -1,0 +1,47 @@
+<% include ./include/head %>
+<link type="text/css" rel="stylesheet" href="static/css/forms.css" media="screen,projection">
+<body onload="loadEvents()" class="light-blue">
+
+  <div id ="registration" class="col s12 z-depth-4 card-panel curve scale-transition">
+    <form method="POST" action="register" class="login-form">
+      <div class="row">
+        <div class="input-field col s12 center">
+          <h4>Solace</h4>
+          <p class="center">Start learning today!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">person_outline</i>
+          <input id="username" type="text" class="validate" name="username">
+          <label for="username">Username: </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 margin">
+          <i class="material-icons prefix">lock_outline</i>
+          <input id="password" type="password" class="validate" name="password">
+          <label for="password">Password: </label>
+          <i id="togglePass" class="custom-icon-size material-icons right">remove_red_eye</i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mail_outline</i>
+          <input id="icon_mail" type="email" class="validate" name="email">
+          <label for="icon_mail">Email: </label>
+          <span class="helper-text" data-error="Enter a valid address"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <button class="btn orange darken-1 waves-effect waves-light col s12">Register Now</button>
+        </div>
+        <div class="col s12">
+          <p class="center margin">Already have an account? <a href="login">Login</a></p>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="static/js/forms.js"></script>
+  <% include ./include/scripts %>

@@ -1,0 +1,25 @@
+<% include ./include/head %>
+<body>
+  <% include ./include/nav %>
+  <main class="light-blue lighten-4">
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Note Values</h2>
+        <p>Understanding different note values (Click each heading for a description)</p>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a class="active"  href="#semibreve">Semibreve</a></li>
+            <li class="tab col s2"><a href="#minim">Minim</a></li>
+            <li class="tab col s2"><a href="#crotchet">Crotchet</a></li>
+            <li class="tab col s2"><a href="#quaver">Quaver</a></li>
+            <li class="tab col s3"><a href="#semiquaver ">Semiquaver</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <% include ./include/grade1/notevaluescontent %>
+  </main>
+  <% include ./include/scripts %>
+  <% include ./include/footer %>

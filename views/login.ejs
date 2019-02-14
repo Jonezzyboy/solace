@@ -1,0 +1,43 @@
+<% include ./include/head %>
+<link type="text/css" rel="stylesheet" href="static/css/forms.css" media="screen,projection">
+<body onload="loadEvents()" class="light-blue">
+
+  <div id ="login" class="col s12 z-depth-4 card-panel curve scale-transition" width="406px">
+    <form method="POST" action="" class="login-form">
+      <div class="row">
+        <div class="input-field col s12 center">
+          <h4>Solace</h4>
+          <p class="center">Start learning today!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">person_outline</i>
+          <input id="username" type="text" class="validate" name="username">
+          <label for="username">Username: </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 margin">
+          <i class="material-icons prefix">lock_outline</i>
+          <input id="password" type="password" class="validate" name="password">
+          <label for="password">Password: </label>
+          <i id="togglePass" class="custom-icon-size material-icons right">remove_red_eye</i>
+        </div>
+        <% if (typeof err != "undefined") { %>
+          <p class="center margin"><%= err %></p>
+        <% } %>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <button class="btn orange darken-1 waves-effect waves-light col s12">Login</button>
+        </div>
+        <div class="col s12">
+          <p class="center margin"><a href="register">Create an Account</a> | <a href="#">Forgotten Password?</a></p>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="static/js/forms.js"></script>
+  <% include ./include/scripts %>
