@@ -3,7 +3,7 @@
 
 ## Build Setup
 
-Locate the files then run this commands within the folder.
+Locate the files then run these commands within the folder.
 
 ``` bash
 # install dependencies
