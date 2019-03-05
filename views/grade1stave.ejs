@@ -1,0 +1,24 @@
+<% include ./include/head %>
+<link type="text/css" rel="stylesheet" href="static/css/vextab.css"  media="screen,projection"/>
+<body>
+  <% include ./include/nav %>
+  <main class="light-blue lighten-4">
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">The Stave</h2>
+        <p>Understanding the stave (Click each heading for a description)</p>
+      </div>
+
+    </div>
+
+      <div class="col s12">
+        <ul class="tabs tabs-fixed-width z-depth-1">
+          <li class="tab"><a class="active"  href="#treble">Treble Clef</a></li>
+          <li class="tab"><a href="#bass">Bass Clef</a></li>
+        </ul>
+      </div>
+
+    <% include ./include/grade1/stavecontent %>
+  </main>
+  <% include ./include/scripts %>
+  <% include ./include/footer %>

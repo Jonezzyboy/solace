@@ -15,12 +15,20 @@ router.get('/games', (req, res) => {
   res.render('games', {title: 'Games'});
 })
 
+router.get('/stats', (req, res) => {
+  res.render('stats', {title: 'Stats'});
+})
+
 router.get('/grade1topics',  (req, res) => {
   res.render('grade1topics', {title: 'Grade 1: Topics'});
 })
 
 router.get('/grade1notevalues',  (req, res) => {
   res.render('grade1notevalues', {title: 'Grade 1: Note Values'});
+})
+
+router.get('/grade1stave',  (req, res) => {
+  res.render('grade1stave', {title: 'Grade 1: The Stave'});
 })
 
 router.route('/login')

@@ -26,3 +26,24 @@ div.vex-tabdiv .title {
   padding: 10px;
   color: #554;
 }
+
+@media screen and (max-width: 870px) {
+  .score{
+    overflow-x: scroll;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .score{
+    overflow-x: scroll;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .score{
+    overflow-x: scroll;
+    width: 300px;
+  }
+}
