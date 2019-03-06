@@ -28,22 +28,26 @@ div.vex-tabdiv .title {
 }
 
 @media screen and (max-width: 870px) {
-  .score{
+  .stave{
     overflow-x: scroll;
     width: 500px;
   }
 }
 
 @media screen and (max-width: 660px) {
-  .score{
-    overflow-x: scroll;
+  .stave{
     width: 400px;
   }
 }
 
 @media screen and (max-width: 525px) {
-  .score{
-    overflow-x: scroll;
+  .stave{
     width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .stave{
+    width: 250px;
   }
 }
