@@ -151,7 +151,7 @@
 
         <div id="crotchetR" class="col s12">
           <div class="col s10">
-            <h3>Crotchet Rests: Quater Rest</h3>
+            <h3>Crotchet Rest: Quater Rest</h3>
             <p>A Crotchect Rest (also known as a quater rest) lasts for 1 beat.</p>
             <p>Below shows an example of crotchet rests with the beats printed above the bar.</p>
           </div>
@@ -207,6 +207,7 @@
       <ul class="tabs tabs-fixed-width z-depth-1">
         <li class="tab"><a class="active"  href="#tied">Tied Notes</a></li>
         <li class="tab"><a href="#dotted">Dotted Notes</a></li>
+        <li class="tab"><a href="#dottedR">Dotted Rests</a></li>
       </ul>
     </div>
 
@@ -217,11 +218,42 @@
           <div class="col s10">
             <h3>Tied Notes</h3>
             <p>A tied note is when two notes combine using a curved line. They are played once and their values are added.</p>
+            <p>The example below sees a crothet tied with another crotchet. This means that both their values are added and one note will be played for 2 beats</p>
           </div>
           <div class="row stave">
             <div class="col s12 vex-tabdiv" width=500 scale=1.3>
               stave time = 4/4
-              notes :1 (F/4)
+              notes :4 A/4 T A/4 :2 ##
+              text :4, .2, 1, 2, 3, 4
+            </div>
+          </div>
+        </div>
+
+        <div id="dotted" class="col s12">
+          <div class="col s10">
+            <h3>Dotted Notes</h3>
+            <p>A dotted note is a note with a dot to its right. They add half its value to itself.</p>
+            <p>The example below shows a dotted minim. Its played for the length of a minim plus 1 beat, which is 3 beats in total.</p>
+          </div>
+          <div class="row stave">
+            <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+              stave time = 4/4
+              notes :2d A/4 :4 ##
+              text :4, .2, 1, 2, 3, 4
+            </div>
+          </div>
+        </div>
+
+        <div id="dottedR" class="col s12">
+          <div class="col s10">
+            <h3>Dotted Rests</h3>
+            <p>A dotted rest is a rest with a dot to its right. They add half its value to itself.</p>
+            <p>The example below shows a dotted minim rest. Its played for the length of a minim plus 1 beat, which is 3 beats in total.</p>
+          </div>
+          <div class="row stave">
+            <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+              stave time = 4/4
+              notes :2d ## :4 ##
               text :4, .2, 1, 2, 3, 4
             </div>
           </div>
