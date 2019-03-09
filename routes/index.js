@@ -27,6 +27,10 @@ router.get('/grade1notevalues',  (req, res) => {
   res.render('grade1notevalues', {title: 'Grade 1: Note Values'});
 })
 
+router.get('/grade1time',  (req, res) => {
+  res.render('grade1time', {title: 'Grade 1: Time Signatures'});
+})
+
 router.get('/grade1stave',  (req, res) => {
   res.render('grade1stave', {title: 'Grade 1: The Stave'});
 })
