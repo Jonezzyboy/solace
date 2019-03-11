@@ -2605,6 +2605,10 @@ ul:not(.browser-default) > li {
   list-style-type: none;
 }
 
+ul.bullet > li{
+  list-style-type: disc;
+}
+
 a {
   color: #039be5;
   text-decoration: none;
