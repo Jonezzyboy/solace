@@ -16,8 +16,9 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'ejs');
 
+// Add touch method to session to reset idle timer for stores that automatically delete idle sessions
 app.use(session({
-  secret: 'solace learning',
+  secret: 'solace learning', // Change to a randomly generated secret string
   resave: true,
   saveUninitialized: false,
   store: new MongoStore({
