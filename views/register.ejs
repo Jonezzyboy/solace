@@ -32,6 +32,9 @@
           <label for="icon_mail">Email: </label>
           <span class="helper-text" data-error="Enter a valid address"></span>
         </div>
+        <% if (typeof err != "undefined") { %>
+          <p class="center margin"><%= err %></p>
+        <% } %>
       </div>
       <div class="row">
         <div class="col s12">

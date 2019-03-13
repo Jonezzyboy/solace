@@ -43,8 +43,6 @@ router.route('/login')
   // Authenticate form data against DB
   User.authenticate(req.body.username, req.body.password, (err, user) => {
     if (err || !user) {
-      var err = new Error('Wrong username or password.');
-      err.status = 401;
       return res.render('login', {title: 'Login', err: 'Wrong username or password'});
     } else {
       req.session.userId = user._id;
@@ -68,9 +66,7 @@ router.route('/register')
   // Insert user form data into DB with the User Schema
   User.create(userData, (err, user) => {
     if (err) {
-      var err = new Error('Username or email already in use.');
-      err.status = 401;
-      return next(err);
+      return res.render('register', {title: 'Register', err: 'Username or email already in use'});
     } else {
       return res.redirect('login');
     }
