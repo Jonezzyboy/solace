@@ -22,7 +22,8 @@ app.use(session({
   resave: true,
   saveUninitialized: false,
   store: new MongoStore({
-    mongooseConnection: db
+    mongooseConnection: db,
+    autoRemove: 'native'
   })
 }));
 
