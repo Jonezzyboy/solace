@@ -4,6 +4,7 @@ const routes = require('./routes');
 const mongoose = require('mongoose');
 const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
+const cookieParser = require('cookie-parser');
 const app = express()
 const port = 3000;
 
@@ -13,6 +14,8 @@ const db = mongoose.connection;
 app.use(express.urlencoded());
 
 app.use('/static', express.static(path.join(__dirname, 'public')));
+
+app.use(cookieParser());
 
 app.set('view engine', 'ejs');
 
@@ -26,6 +29,13 @@ app.use(session({
     autoRemove: 'native'
   })
 }));
+
+app.use((req, res, next) => {
+    if (req.cookies.userId && !req.session.user) {
+        res.clearCookie('userId');        
+    }
+    next();
+});
 
 app.use('/', routes);
 
