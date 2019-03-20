@@ -1,12 +1,13 @@
-const express = require('express');
-const path = require('path');
-const routes = require('./routes');
-const mongoose = require('mongoose');
-const session = require('express-session');
-const MongoStore = require('connect-mongo')(session);
-const cookieParser = require('cookie-parser');
-const app = express()
-const port = 3000;
+const
+express = require('express'),
+path = require('path'),
+routes = require('./routes'),
+mongoose = require('mongoose'),
+session = require('express-session'),
+MongoStore = require('connect-mongo')(session),
+cookieParser = require('cookie-parser'),
+app = express(),
+port = 3000;
 
 mongoose.connect('mongodb+srv://admin:S0lac3_Music@solacecluster-ihwta.mongodb.net/Solace?retryWrites=true', { useNewUrlParser: true });
 const db = mongoose.connection;
@@ -32,7 +33,7 @@ app.use(session({
 
 app.use((req, res, next) => {
     if (req.cookies.userId && !req.session.user) {
-        res.clearCookie('userId');        
+        res.clearCookie('userId');
     }
     next();
 });
