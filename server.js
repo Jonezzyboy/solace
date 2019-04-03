@@ -32,13 +32,24 @@ app.use(session({
 }));
 
 app.use((req, res, next) => {
-    if (req.cookies.userId && !req.session.user) {
-        res.clearCookie('userId');
-    }
-    next();
+  if (req.cookies.userId && !req.session.user) {
+    res.clearCookie('userId');
+  }
+  next();
 });
 
 app.use('/', routes);
+
+
+// Work on to redirect if there's no session ---------------------
+// app.use((req, res, next) => {
+//   if (req.session.username == null){
+//     res.render('/login');
+//   }else{
+//     next();
+//   }
+// });
+// ----------------------------------------------------------------
 
 app.listen(port, () => {
   console.log('Server has stared on port:' + port);

@@ -1,7 +1,8 @@
-const express = require('express');
-const router = express.Router();
-const User = require('../models/user');
-const bcrypt = require('bcryptjs');
+const
+express = require('express'),
+router = express.Router(),
+User = require('../models/user'),
+bcrypt = require('bcryptjs');
 
 router.get('/', (req, res) => {
   res.render('index', {title: 'Solace', username:req.session.username});
@@ -47,10 +48,18 @@ router.route('/login')
     } else {
       req.session.userId = user._id;
       req.session.username = user.username;
-      console.log(req.session);
+      console.log(req.session.username);
+      if(req.session){
+        console.log("TRUE");
+      }
       return res.redirect('/');
     }
   });
+})
+
+router.get('/logout', (req, res) => {
+  req.session.destroy();
+  res.render('login', {title: 'Login'});
 })
 
 router.route('/register')
