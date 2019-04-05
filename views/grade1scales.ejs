@@ -1,0 +1,139 @@
+<% include ./include/head %>
+<% include ./include/musicnotation %>
+<body>
+  <% include ./include/nav %>
+  <main class="light-blue lighten-4">
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Scales</h2>
+        <p>Understanding how to build a major scale</p>
+      </div>
+    </div>
+
+    <div class="row container flow-text">
+
+      <div class="col offset-s2">
+
+        <div class="col s12">
+          <div class="col s10">
+            <h3>The Major Scale</h3>
+            <p>Scales are made up of <b>semitones</b> and <b>tones</b></p>
+            <ul class="bullet">
+              <li>A semitone is a half step, e.g. from C to C# is a semitone</li>
+              <li>A tone is a whole step and made up of two semitones, e.g. from C to D is a tone</li>
+            </ul>
+            <p>A <b>major scale</b> can be written as: </p>
+            <p> <b>Tone</b>, <b>Tone</b>, <b>Semitone</b>, <b>Tone</b>, <b>Tone</b>, <b>Tone</b>, <b>Semitone</b></p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 4/4
+                clef = treble
+                notes :4 C-D-E-F-G-A-B/4 C/5
+                text :4, C, D, E, F, G, A, B, C
+              </div>
+            </div>
+            <p>Here we see the C major scale made up of tones and semitones</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Basic Major Scales</h2>
+        <p>Understanding basic major scales including sharps and flats (Click each heading for a description)</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#c">C Major</a></li>
+        <li class="tab"><a href="#g">G Major</a></li>
+        <li class="tab"><a href="#d">D Major</a></li>
+        <li class="tab"><a href="#f">F Major</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+
+      <div class="col offset-s2">
+
+        <div id="c" class="col s12">
+          <div class="col s12">
+            <h3>C Major</h3>
+            <p>The C major scale has no sharps or flats</p>
+            <p>The scale starts on C</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 4/4
+                clef = treble
+                notes :4 C-D-E-F-G-A-B/4 C/5
+                text :4, C, D, E, F, G, A, B, C
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="g" class="col s12">
+          <div class="col s12">
+            <h3>G Major</h3>
+            <p>The G major scale has 1 sharp of F#</p>
+            <p>The scale starts on G</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 4/4
+                key = G
+                clef = treble
+                notes :4 G-A-B/4 C-D-E-F-G/5
+                text :4, G, A, B, C, D, E, F#, G
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="d" class="col s12">
+          <div class="col s12">
+            <h3>D Major</h3>
+            <p>The D major scale has 2 sharps: F# and C#</p>
+            <p> The scale starts on D</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 4/4
+                key = D
+                clef = treble
+                notes :4 D-E-F-G-A-B/4 C-D/5
+                text :4, D, E, F#, G, A, B, C#, D
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="f" class="col s12">
+          <div class="col s12">
+            <h3>F Major</h3>
+            <p>The F major scale has 1 flat: Bb</p>
+            <p> The scale starts on F</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 4/4
+                key = F
+                clef = treble
+                notes :4 F-G-A-B/4 C-D-E-F/5
+                text :4, F, G, A, Bb, C, D, E, F
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+  <% include ./include/scripts %>
+  <% include ./include/footer %>
