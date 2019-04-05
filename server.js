@@ -20,9 +20,9 @@ app.use(cookieParser());
 
 app.set('view engine', 'ejs');
 
-// Add touch method to session to reset idle timer for stores that automatically delete idle sessions
 app.use(session({
-  secret: 'solace learning', // Change to a randomly generated secret string
+  secret: 'J_(8MT%G|S=Z&Q2',
+  name: 'sessionID',
   resave: true,
   saveUninitialized: false,
   store: new MongoStore({
@@ -30,13 +30,6 @@ app.use(session({
     autoRemove: 'native'
   })
 }));
-
-app.use((req, res, next) => {
-  if (req.cookies.userId && !req.session.user) {
-    res.clearCookie('userId');
-  }
-  next();
-});
 
 app.use('/', routes);
 
