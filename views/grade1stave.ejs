@@ -100,6 +100,94 @@
 
     </div>
 
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Accidentals</h2>
+        <p>Understanding how accidentals are used to raise or lower notes</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#sharps">Sharps</a></li>
+        <li class="tab"><a href="#flats">Flats</a></li>
+        <li class="tab"><a href="#naturals">Naturals</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+
+      <div class="col offset-s2">
+
+        <div id="sharps" class="col s12">
+          <div class="col s10">
+            <h3>Sharps</h3>
+            <p>A <b>sharp</b> is an accidental used to <b>raise</b> a note by one semitone</p>
+            <p>A sharp is shown as a '<b>#</b>' to the left of the note being raised</p>
+            <p>The example below shows a normal A note followed by an A#</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave
+                clef = treble
+                notes :4 A-A#/4
+                text :4, A, A#
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="flats" class="col s12">
+          <div class="col s10">
+            <h3>Flats</h3>
+            <p>A <b>flat</b> is an accidental used to <b>lower</b> a note by one semitone</p>
+            <p>A flat is shown as s '<b><i>b</i></b>' to the left of the note being lowered</p>
+            <p>The example below shows a normal A note followed by an Ab</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave
+                clef = treble
+                notes :4 A-A@/4
+                text :4, A, Ab
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="naturals" class="col s12">
+          <div class="col s9">
+            <h3>Naturals</h3>
+            <p>A <b>natural</b> is an accidental used to remove any exisitng accidentals</p>
+            <p>This means if a key signature has sharps or flats and a natural is placed on a sharp or flat note it removes them</p>
+            <p>A natural is shown as s '<b>♮</b>' to the left of the note</p>
+            <p>The example below shows an F# note followed by an F♮</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave
+                key = G
+                clef = treble
+                notes :4 F-Fn/4
+                text :4, F#, F
+              </div>
+            </div>
+            <p>The example below shows an Bb note followed by an B♮</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave
+                key = F
+                clef = treble
+                notes :4 B-Bn/4
+                text :4, Bb, B
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </main>
   <% include ./include/scripts %>
   <% include ./include/footer %>
