@@ -19,6 +19,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 $(document).ready(function(){
   $('.parallax').parallax();
   $('.sidenav').sidenav();
+  $('.collapsible').collapsible();
 });
 
 /*! cash-dom 1.3.5, https://github.com/kenwheeler/cash @license MIT */
@@ -1893,7 +1894,7 @@ ia = function () {
   'use strict';
 
   var _defaults = {
-    accordion: true,
+    accordion: false,
     onOpenStart: undefined,
     onOpenEnd: undefined,
     onCloseStart: undefined,

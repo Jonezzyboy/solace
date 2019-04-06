@@ -1,0 +1,124 @@
+<% include ./include/head %>
+<% include ./include/musicnotation %>
+<body>
+  <% include ./include/nav %>
+  <main class="light-blue lighten-4">
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Terms</h2>
+        <p>Understanding basic musical terms (Click each heading for a description)</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#tempo">Tempo</a></li>
+        <li class="tab"><a href="#dynamics">Dynamics</a></li>
+        <li class="tab"><a href="#perfDir">Performance Directions</a></li>
+        <li class="tab"><a href="#artMarks">Articulation Marks</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+
+      <div class="col offset-s2">
+
+        <div id="tempo" class="col s12">
+          <div class="col s12">
+            <h3>Tempo</h3>
+            <p>Tempo markings show how fast or slow music should be played</p>
+            <p>Some of the basic tempo markings are:</p>
+
+            <ul class="collapsible expandable white">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Accelerando</div>
+                <div class="collapsible-body"><span>Gradually getting quicker, can be written as accel.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Adagio</div>
+                <div class="collapsible-body"><span>Slow</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Allegretto</div>
+                <div class="collapsible-body"><span>Fairly quick</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Allegro</div>
+                <div class="collapsible-body"><span>Quick</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Andante</div>
+                <div class="collapsible-body"><span>Medium speed</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Rallentando</div>
+                <div class="collapsible-body"><span>Gradually getting slower, can be written as rall.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Ritardando</div>
+                <div class="collapsible-body">
+                  <span>Gradually getting slower (similar to Rallentando)<p>Can be written as either ritard. or rit.</p></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Ritenuto</div>
+                <div class="collapsible-body"><span>Immediately slower<p>Can be written as either riten. or rit.</p></span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="dynamics" class="col s12">
+          <div class="col s10">
+            <h3>Dynamics</h3>
+            <p>A 2/4 time sginature has 2 crotchet beats to a bar.</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 2/4
+                clef = treble
+                notes :4 E-E/4
+                text :4, 1, 2
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="perfDir" class="col s12">
+          <div class="col s10">
+            <h3>Performance Directions</h3>
+            <p>A 2/4 time sginature has 2 crotchet beats to a bar.</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 2/4
+                clef = treble
+                notes :4 E-E/4
+                text :4, 1, 2
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="artMarks" class="col s12">
+          <div class="col s10">
+            <h3>Articulation Marks</h3>
+            <p>A 2/4 time sginature has 2 crotchet beats to a bar.</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=400 scale=1.3>
+                options space=10
+                stave time = 2/4
+                clef = treble
+                notes :4 E-E/4
+                text :4, 1, 2
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+  <% include ./include/scripts %>
+  <% include ./include/footer %>

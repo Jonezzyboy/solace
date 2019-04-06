@@ -47,6 +47,10 @@ router.get('/grade1scales', isLoggedIn, (req, res) => {
   res.render('grade1scales', {title: 'Grade 1: Major Scales'});
 })
 
+router.get('/grade1terms', isLoggedIn, (req, res) => {
+  res.render('grade1terms', {title: 'Grade 1: Terms'});
+})
+
 router.route('/login')
 .get( (req, res) => {
   res.render('login', {title: 'Login'});
