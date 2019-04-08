@@ -1,0 +1,419 @@
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a semibreve last for?"
+  "incorrect": [
+    "2 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "4 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a minim last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "2 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a crotchet last for?"
+  "incorrect": [
+    "4 beats",
+    "2 beats",
+    "1/2 of a beat"
+  ],
+  "correct": "1 beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a quaver last for?"
+  "incorrect": [
+    "1 beat",
+    "2 beats",
+    "1/4 of a beat"
+  ],
+  "correct": "1/2 of a beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a semiquaver last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "1/4 of a beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a whole note last for?"
+  "incorrect": [
+    "2 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "4 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a half note last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "2 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a quarter note last for?"
+  "incorrect": [
+    "4 beats",
+    "2 beats",
+    "1/2 of a beat"
+  ],
+  "correct": "1 beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does an eighth note last for?"
+  "incorrect": [
+    "1 beat",
+    "2 beats",
+    "1/4 of a beat"
+  ],
+  "correct": "1/2 of a beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a sixteenth note last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "1/4 of a beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw semibreve?"
+  "incorrect": [
+    "Filled oval shape",
+    "Hollow oval shape with a stem",
+    "Filled oval shape with a stem"
+  ],
+  "correct": "Hollow oval shape"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw minim?"
+  "incorrect": [
+    "Hollow oval shape",
+    "Filled oval shape with a stem",
+    "Filled oval shape with a curved stem"
+  ],
+  "correct": "Hollow oval shape with a stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw crotchet?"
+  "incorrect": [
+    "Hollow oval shape",
+    "Hollow oval shape with a stem",
+    "Filled oval shape with a curved stem"
+  ],
+  "correct": "Filled oval shape with a stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw quaver?"
+  "incorrect": [
+    "Hollow oval shape with a stem",
+    "Filled oval shape with a double curved stem",
+    "Filled oval shape with a stem"
+  ],
+  "correct": "Filled oval shape with a curved stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw semiquaver?"
+  "incorrect": [
+    "Filled oval shape with a stem",
+    "Hollow oval shape",
+    "Filled oval shape with a curved stem"
+  ],
+  "correct": "Filled oval shape with a double curved stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw a whole note?"
+  "incorrect": [
+    "Filled oval shape",
+    "Hollow oval shape with a stem",
+    "Filled oval shape with a stem"
+  ],
+  "correct": "Hollow oval shape"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw a half note?"
+  "incorrect": [
+    "Hollow oval shape",
+    "Filled oval shape with a stem",
+    "Filled oval shape with a curved stem"
+  ],
+  "correct": "Hollow oval shape with a stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw a quarter note?"
+  "incorrect": [
+    "Hollow oval shape",
+    "Hollow oval shape with a stem",
+    "Filled oval shape with a curved stem"
+  ],
+  "correct": "Filled oval shape with a stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw an eighth note?"
+  "incorrect": [
+    "Hollow oval shape with a stem",
+    "Filled oval shape with a double curved stem",
+    "Filled oval shape with a stem"
+  ],
+  "correct": "Filled oval shape with a curved stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw a sixteenth note?"
+  "incorrect": [
+    "Filled oval shape with a stem",
+    "Hollow oval shape",
+    "Filled oval shape with a curved stem"
+  ],
+  "correct": "Filled oval shape with a double curved stem"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "What is a tied note?"
+  "incorrect": [
+    "3 combined notes",
+    "2 seperate notes",
+    "3 seperate notes"
+  ],
+  "correct": "2 combined notes"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw a tied note?"
+  "incorrect": [
+    "With a straight line",
+    "With an arrow",
+    "With a triangle"
+  ],
+  "correct": "With a curved line"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "What is a dotted note?"
+  "incorrect": [
+    "A note with its value added to itself",
+    "A note with a quater of its value added to itself",
+    "A note with half its value removed from itself"
+  ],
+  "correct": "A note with half its value added to itself"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How do you draw a dotted note?"
+  "incorrect": [
+    "With a square to the left of the note",
+    "With a dot to the left of the note",
+    "With a square to the right of the note"
+  ],
+  "correct": "With a dot to the right of the note"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "What is a rest?"
+  "incorrect": [
+    "A note with half its value added to itself",
+    "A note that's played quietly",
+    "A note that's played loudly"
+  ],
+  "correct": "A pause in the music where nothing is being played"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a semibreve rest last for?"
+  "incorrect": [
+    "2 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "4 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a minim rest last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "2 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a crotchet rest last for?"
+  "incorrect": [
+    "4 beats",
+    "2 beats",
+    "1/2 of a beat"
+  ],
+  "correct": "1 beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a quaver rest last for?"
+  "incorrect": [
+    "1 beat",
+    "2 beats",
+    "1/4 of a beat"
+  ],
+  "correct": "1/2 of a beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a semiquaver rest last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "1/4 of a beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a whole rest last for?"
+  "incorrect": [
+    "2 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "4 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a half rest last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "2 beats"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a quarter rest last for?"
+  "incorrect": [
+    "4 beats",
+    "2 beats",
+    "1/2 of a beat"
+  ],
+  "correct": "1 beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does an eighth rest last for?"
+  "incorrect": [
+    "1 beat",
+    "2 beats",
+    "1/4 of a beat"
+  ],
+  "correct": "1/2 of a beat"
+}
+
+{
+  "grade": 1,
+  "category": "noteValues",
+  "question": "How long does a sixteenth rest last for?"
+  "incorrect": [
+    "4 beats",
+    "1 beat",
+    "1/2 of a beat"
+  ],
+  "correct": "1/4 of a beat"
+}

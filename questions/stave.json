@@ -1,0 +1,167 @@
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What is the treble clef also known as?"
+  "incorrect": [
+    "E Clef",
+    "F Clef",
+    "H Clef"
+  ],
+  "correct": "G Clef"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What is the bass clef also known as?"
+  "incorrect": [
+    "E Clef",
+    "G Clef",
+    "H Clef"
+  ],
+  "correct": "F Clef"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What is the G clef also known as?"
+  "incorrect": [
+    "Bass Clef",
+    "Alto Clef",
+    "Tenor Clef"
+  ],
+  "correct": "Treble Clef"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What is the F clef also known as?"
+  "incorrect": [
+    "Treble Clef",
+    "Alto Clef",
+    "Tenor Clef"
+  ],
+  "correct": "Bass Clef"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What are the notes on the treble clef lines?"
+  "incorrect": [
+    "E, G, D, B, F",
+    "E, B, G, D, F",
+    "F, G, B, D, E"
+  ],
+  "correct": "E, G, B, D, F"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What are the notes on the treble clef spaces?"
+  "incorrect": [
+    "F, A, E, C",
+    "F, C, A, E",
+    "E, A, C, F"
+  ],
+  "correct": "F, A, C, E"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What are the notes on the bass clef lines?"
+  "incorrect": [
+    "G, B, F, D, A",
+    "G, D, B, F, A",
+    "A, B, D, F, G"
+  ],
+  "correct": "G, B, D, F, A"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What are the notes on the bass clef spaces?"
+  "incorrect": [
+    "A, C, G, E",
+    "A, E, C, G",
+    "G, C, E, A"
+  ],
+  "correct": "A, C, E, G"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What does a sharp do?"
+  "incorrect": [
+    "Makes the note last longer",
+    "Cancels any exisitng accidentals",
+    "Lower a note by one semitone"
+  ],
+  "correct": "Raise a note by one semitone"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What does a flat do?"
+  "incorrect": [
+    "Makes the note last longer",
+    "Cancels any exisitng accidentals",
+    "Raise a note by one semitone"
+  ],
+  "correct": "Lower a note by one semitone"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What does a natural do?"
+  "incorrect": [
+    "Makes the note last longer",
+    "Lower a note by one semitone",
+    "Raise a note by one semitone"
+  ],
+  "correct": "Cancels any exisitng accidentals"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What is the symbol for a sharp?"
+  "incorrect": [
+    "S",
+    "♮",
+    "♭"
+  ],
+  "correct": "#"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What is the symbol for a flat?"
+  "incorrect": [
+    "F",
+    "♮",
+    "#"
+  ],
+  "correct": "♭"
+}
+
+{
+  "grade": 1,
+  "category": "stave",
+  "question": "What is the symbol for a natural?"
+  "incorrect": [
+    "N",
+    "♭",
+    "#"
+  ],
+  "correct": "♮"
+}

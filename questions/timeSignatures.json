@@ -1,0 +1,155 @@
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "How many parts are time signatures made up of?"
+  "incorrect": [
+    "1 part",
+    "3 parts",
+    "4 parts"
+  ],
+  "correct": "2 parts"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "What does the top number of a time signature show?"
+  "incorrect": [
+    "How many notes are in the whole piece of music",
+    "The length of the music",
+    "The type of note being used"
+  ],
+  "correct": "How many notes there are per bar"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "What does the bottom number of a time signature show?"
+  "incorrect": [
+    "How many notes there are per bar",
+    "How many notes are in the whole piece of music",
+    "The length of the music"
+  ],
+  "correct": "The type of note being used"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "What time signature has 2 crotchet beats to a bar?"
+  "incorrect": [
+    "3/4",
+    "4/4",
+    "5/4"
+  ],
+  "correct": "2/4"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "What time signature has 3 crotchet beats to a bar?"
+  "incorrect": [
+    "2/4",
+    "4/4",
+    "5/4"
+  ],
+  "correct": "3/4"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "What time signature has 4 crotchet beats to a bar?"
+  "incorrect": [
+    "2/4",
+    "3/4",
+    "5/4"
+  ],
+  "correct": "4/4"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "How many crotchet beats are there in 2/4 per bar?"
+  "incorrect": [
+    "3 crotchets",
+    "4 crotchets",
+    "5 crotchets"
+  ],
+  "correct": "2 crotchets"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "How many crotchet beats are there in 3/4 per bar?"
+  "incorrect": [
+    "2 crotchets",
+    "4 crotchets",
+    "5 crotchets"
+  ],
+  "correct": "3 crotchets"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "How many crotchet beats are there in 4/4 per bar?"
+  "incorrect": [
+    "2 crotchets",
+    "3 crotchets",
+    "5 crotchets"
+  ],
+  "correct": "4 crotchets"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "How many crotchet beats are there in common time per bar?"
+  "incorrect": [
+    "2 crotchets",
+    "3 crotchets",
+    "5 crotchets"
+  ],
+  "correct": "4 crotchets"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "How can you represent 4/4 with a letter?"
+  "incorrect": [
+    "Capital A",
+    "Capital B",
+    "Capital F"
+  ],
+  "correct": "Capital C"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "What time signature can be represented by a capital C?"
+  "incorrect": [
+    "2/4",
+    "3/4",
+    "5/4"
+  ],
+  "correct": "4/4"
+}
+
+{
+  "grade": 1,
+  "category": "timeSignatures",
+  "question": "What time signature is also known as common time?"
+  "incorrect": [
+    "2/4",
+    "3/4",
+    "5/4"
+  ],
+  "correct": "4/4"
+}
