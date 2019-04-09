@@ -3443,6 +3443,10 @@ table span.badge {
   cursor:default;
 }
 
+.logoutIcon {
+  cursor: pointer;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1280px;
