@@ -1,0 +1,241 @@
+[
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is a scale made up of?",
+    "incorrect": [
+      "Semicones and Cones",
+      "Semilones and Lones",
+      "Semiphones and Phones"
+    ],
+    "correct": "Semitones and Tones"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is a semitone?",
+    "incorrect": [
+      "A quarter step",
+      "Two whole steps",
+      "A whole step"
+    ],
+    "correct": "A half step"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is a tone?",
+    "incorrect": [
+      "A quarter step",
+      "Two whole steps",
+      "A half step"
+    ],
+    "correct": "A whole step"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "How can a major scale be written with tones and semitones?",
+    "incorrect": [
+      "Semitone, Semitone, Semitone, Tone, Tone, Tone, Semitone",
+      "Tone, Tone, Tone, Tone, Semitone, Tone, Semitone",
+      "Semitone, Semitone, Tone, Semitone, Semitone, Semitone, Tone"
+    ],
+    "correct": "Tone, Tone, Semitone, Tone, Tone, Tone, Semitone"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What many sharps or flats does the C major scale have?",
+    "incorrect": [
+      "0 Sharps and 1 Flat",
+      "1 Sharp and 0 Flats",
+      "1 Sharp and 1 Flat"
+    ],
+    "correct": "0 Sharps or Flats"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What many sharps does the G major scale have?",
+    "incorrect": [
+      "0 Sharps",
+      "2 Sharps",
+      "3 Sharps"
+    ],
+    "correct": "1 Sharp"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What many sharps does the D major scale have?",
+    "incorrect": [
+      "0 Sharps",
+      "1 Sharps",
+      "3 Sharps"
+    ],
+    "correct": "2 Sharps"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What many flats does the F major scale have?",
+    "incorrect": [
+      "0 Flats",
+      "2 Flats",
+      "3 Flats"
+    ],
+    "correct": "1 Flat"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What sharps does the G major scale have?",
+    "incorrect": [
+      "F# and C#",
+      "G#",
+      "D#"
+    ],
+    "correct": "F#"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What sharps does the D major scale have?",
+    "incorrect": [
+      "D# and C#",
+      "F# and D#",
+      "D#"
+    ],
+    "correct": "F# and C#"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What flats does the F major scale have?",
+    "incorrect": [
+      "D♭",
+      "F♭ and B♭",
+      "F♭"
+    ],
+    "correct": "B♭"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What note does the C major scale start on?",
+    "incorrect": [
+      "G",
+      "E",
+      "D"
+    ],
+    "correct": "C"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What note does the G major scale start on?",
+    "incorrect": [
+      "C",
+      "F#",
+      "D"
+    ],
+    "correct": "G"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What note does the D major scale start on?",
+    "incorrect": [
+      "C#",
+      "F#",
+      "G"
+    ],
+    "correct": "D"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What note does the F major scale start on?",
+    "incorrect": [
+      "D",
+      "B♭",
+      "C"
+    ],
+    "correct": "F"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is a major tonic triad made up of?",
+    "incorrect": [
+      "The Second (2), The Third (3), The Fifth (5)",
+      "The Tonic (1), The Third (3), The Fourth (4)",
+      "The Tonic (1), The Second (2), The Fifth (5)"
+    ],
+    "correct": "The Tonic (1), The Third (3), The Fifth (5)"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is the C major tonic triad made up of?",
+    "incorrect": [
+      "G, B, D",
+      "C, E, F",
+      "C, F, G"
+    ],
+    "correct": "C, E, G"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is the G major tonic triad made up of?",
+    "incorrect": [
+      "D, F#, A",
+      "G, E, F",
+      "G, C, D"
+    ],
+    "correct": "G, B, D"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is the D major tonic triad made up of?",
+    "incorrect": [
+      "F, A, C",
+      "G, B, D",
+      "D, G, A"
+    ],
+    "correct": "D, F#, A"
+  },
+
+  {
+    "grade": 1,
+    "category": "scales",
+    "question": "What is the F major tonic triad made up of?",
+    "incorrect": [
+      "D, F#, A",
+      "C, E, G",
+      "F, B♭, C"
+    ],
+    "correct": "F, A, C"
+  }
+]
