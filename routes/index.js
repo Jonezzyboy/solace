@@ -2,6 +2,7 @@ const
 express = require('express'),
 router = express.Router(),
 User = require('../models/user'),
+Quiz = require('../models/quiz'),
 bcrypt = require('bcryptjs');
 
 function isLoggedIn (req, res, next){
@@ -49,6 +50,21 @@ router.get('/grade1scales', isLoggedIn, (req, res) => {
 
 router.get('/grade1terms', isLoggedIn, (req, res) => {
   res.render('grade1terms', {title: 'Grade 1: Terms'});
+})
+
+router.route('/quizGame')
+.get( (req, res) => {
+  // Pull questions - Change category type to passable variable
+  Quiz.find({ category: "noteValues" }).exec( function (err, questions) {
+    if (err) {
+      return callback(err)
+    }
+    console.log(questions);
+    res.render('games', {title: 'Games'});
+  })
+})
+.post( (req, res) => {
+
 })
 
 router.route('/login')
