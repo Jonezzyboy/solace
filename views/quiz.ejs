@@ -1,4 +1,5 @@
 <% include ./include/head %>
+<link type="text/css" rel="stylesheet" href="static/css/quiz.css" media="screen,projection">
 <body>
   <% include ./include/nav %>
   <main>
@@ -8,34 +9,35 @@
         <p>Select which topic you would like to be quizzed on?</p>
       </div>
     </div>
-
-    <form method="POST" action="quizGame">
-      <div class="row">
-        <div class="input-field col s6 offset-s3">
-          <select id="quizSelection" name="quizSelection">
-            <option value="" disabled selected>Choose a topic</option>
-            <optgroup label="Grade 1">
-              <option value='{"grade":1, "category":"noteValues"}'>Note Values</option>
-              <option value='{"grade":1, "category":"stave"}'>Stave</option>
-              <option value='{"grade":1, "category":"timeSignatures"}'>Time Signatures</option>
-              <option value='{"grade":1, "category":"scales"}'>Scales</option>
-            </optgroup>
-            <optgroup label="Grade 2">
-              <option value='{"grade":2, "category":"noteValues"}'>Note Values</option>
-              <option value='{"grade":2, "category":"stave"}'>Stave</option>
-              <option value='{"grade":2, "category":"timeSignatures"}'>Time Signatures</option>
-              <option value='{"grade":2, "category":"scales"}'>Scales</option>
-            </optgroup>
-          </select>
-          <label>Topics</label>
+    <div class="row container">
+      <form method="POST" action="quizGame">
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <select id="quizSelection" name="quizSelection">
+              <option value="" disabled selected>Choose a topic</option>
+              <optgroup label="Grade 1">
+                <option value='{"grade":1, "category":"noteValues"}'>Note Values</option>
+                <option value='{"grade":1, "category":"stave"}'>Stave</option>
+                <option value='{"grade":1, "category":"timeSignatures"}'>Time Signatures</option>
+                <option value='{"grade":1, "category":"scales"}'>Scales</option>
+              </optgroup>
+              <optgroup label="Grade 2">
+                <option value='{"grade":2, "category":"noteValues"}'>Note Values</option>
+                <option value='{"grade":2, "category":"stave"}'>Stave</option>
+                <option value='{"grade":2, "category":"timeSignatures"}'>Time Signatures</option>
+                <option value='{"grade":2, "category":"scales"}'>Scales</option>
+              </optgroup>
+            </select>
+            <label>Topics</label>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          <button class="btn orange darken-2 waves-effect waves-light col s6 offset-s3">Submit</button>
+        <div class="row">
+          <div class="col s12">
+            <button class="btn orange darken-2 waves-effect waves-light col s6 offset-s3">Submit</button>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
 
   </main>
   <% include ./include/scripts %>
