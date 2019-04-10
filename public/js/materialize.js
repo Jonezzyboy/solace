@@ -20,6 +20,7 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.sidenav').sidenav();
   $('.collapsible').collapsible();
+  $('select').formSelect();
 });
 
 /*! cash-dom 1.3.5, https://github.com/kenwheeler/cash @license MIT */

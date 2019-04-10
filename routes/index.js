@@ -52,19 +52,35 @@ router.get('/grade1terms', isLoggedIn, (req, res) => {
   res.render('grade1terms', {title: 'Grade 1: Terms'});
 })
 
+router.get('/quiz', isLoggedIn, (req, res) => {
+  res.render('quiz', {title: 'Games: Quiz'});
+})
+
 router.route('/quizGame')
 .get( (req, res) => {
-  // Pull questions - Change category type to passable variable
-  Quiz.find({ category: "noteValues" }).exec( function (err, questions) {
+
+})
+.post( (req, res) => {
+  // Return all questions depending on grade and category
+  var questionQuery = JSON.parse(req.body.quizSelection);
+  Quiz.find({ $and: [{category: questionQuery.category}, {grade: questionQuery.grade}] }).exec( function (err, allQuestions) {
     if (err) {
       return callback(err)
     }
-    console.log(questions);
-    res.render('games', {title: 'Games'});
+    // Randomly select 10 questions from all questions returned
+    var index = 0;
+    var rand = 0;
+    var selectedQuestions = [];
+    for (var i = 0; i < 10; i++) {
+      rand = Math.floor(Math.random()*allQuestions.length);
+      index = allQuestions.indexOf(rand);
+      selectedQuestions.push(allQuestions[rand])
+      allQuestions.splice(index, 1);
+      console.log(allQuestions.length);
+    }
+    console.log(selectedQuestions);
+    res.redirect('games');
   })
-})
-.post( (req, res) => {
-
 })
 
 router.route('/login')
