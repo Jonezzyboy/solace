@@ -12,31 +12,50 @@
     </div>
 
     <div class="row container flow-text">
-      <%
-        // Mix the order of correct and incorrect answers
-        mixAnswers = function(answers) {
-          var rand = 0;
-          var allAnswers = [];
-          var length = answers.length;
-          for (var i = 0; i < length; i++) {
-            rand = Math.floor(Math.random()*answers.length);
-            allAnswers.push(answers[rand]);
-            answers.splice(rand, 1);
-            console.log(answers.length);
+      <form class="" action="" method="post">
+        <%
+          // Mix the order of correct and incorrect answers
+          mixAnswers = function(answers) {
+            var rand = 0;
+            var allAnswers = [];
+            var length = answers.length;
+            for (var i = 0; i < length; i++) {
+              rand = Math.floor(Math.random()*answers.length);
+              allAnswers.push(answers[rand]);
+              answers.splice(rand, 1);
+              console.log(answers.length);
+            }
+            return allAnswers;
           }
-          return allAnswers;
-        }
-      %>
-      <% questions.forEach(function(question) {
-        var allAnswers = []
-        allAnswers = question.incorrect
-        allAnswers.push(question.correct)
-        allAnswers = mixAnswers(allAnswers)%>
-        <div class="col s12">
-          <h4><%= question.question %></h4>
-          <p><%= allAnswers %></p>
+        %>
+        <%
+          var count = 0;
+          questions.forEach(function(question) {
+          var allAnswers = []
+          allAnswers = question.incorrect
+          allAnswers.push(question.correct)
+          allAnswers = mixAnswers(allAnswers)
+        %>
+          <div class="col s12">
+            <h4><%= question.question %></h4>
+            <%
+              allAnswers.forEach(function(choice){
+            %>
+            <p>
+              <label>
+                <input class="with-gap" name="group<%= count %>" type="radio"/>
+                <span><%= choice %></span>
+              </label>
+            </p>
+            <% }); count = count + 1 %>
+          </div>
+        <% }); %>
+        <div class="row">
+          <div class="col s12">
+            <button class="btn orange darken-2 waves-effect waves-light col s12">Submit</button>
+          </div>
         </div>
-      <% }); %>
+      </form>
     </div>
 
   </main>
