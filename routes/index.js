@@ -3,6 +3,7 @@ express = require('express'),
 router = express.Router(),
 User = require('../models/user'),
 Quiz = require('../models/quiz'),
+Stats = require('../models/stats'),
 bcrypt = require('bcryptjs');
 
 function isLoggedIn (req, res, next){
@@ -52,13 +53,9 @@ router.get('/grade1terms', isLoggedIn, (req, res) => {
   res.render('grade1terms', {title: 'Grade 1: Terms'});
 })
 
-router.get('/quizSelection', isLoggedIn, (req, res) => {
-  res.render('quizSelection', {title: 'Games: Quiz Selection'});
-})
-
 router.route('/quizGame')
-.get( (req, res) => {
-
+.get( isLoggedIn, (req, res) => {
+  res.render('quizSelection', {title: 'Games: Quiz Selection'});
 })
 .post( (req, res) => {
   // Return all questions depending on grade and category
@@ -66,7 +63,7 @@ router.route('/quizGame')
   Quiz.find({ $and: [{category: questionQuery.category}, {grade: questionQuery.grade}] })
   .exec( function (err, allQuestions) {
     if (err) {
-      return callback(err)
+      return err
       res.redirect('quizSelection');
     }
     // Randomly select 10 questions from all questions returned
@@ -80,6 +77,34 @@ router.route('/quizGame')
     res.render('quizGame', {title: 'Quiz: Grade ' + questionQuery.grade + ' '
     + questionQuery.quizTitle, questions: selectedQuestions});
   })
+})
+
+router.post('/quizEnd', isLoggedIn, (req, res) => {
+  var count = req.body.count;
+  var totalScore = 0
+  var
+  question,
+  answer,
+  correct,
+  percentage
+  for (var i = 0; i < count; i++) {
+    answer = eval('req.body.' + 'group' + i);
+    question = eval('req.body.' + 'question' + i);
+
+    Quiz.findOne({ $and: [{question: question}, {correct: answer}] }, checkAnswer)
+
+    var checkAnswer = function(err, correct){
+      if (err) return handleError(err);
+      if (!correct) {
+        console.log("False");
+      } else {
+        // Add this score to db
+        totalScore++
+        percentage = Math.floor((totalScore/count)*100)
+      }
+    }
+  }
+  res.redirect('/quizgame');
 })
 
 router.route('/login')

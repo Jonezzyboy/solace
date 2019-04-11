@@ -6794,7 +6794,7 @@ textarea.materialize-textarea {
 
 [type="radio"]:not(:checked) + span:before,
 [type="radio"]:not(:checked) + span:after {
-  border: 2px solid #5a5a5a;
+  border: 2px solid black;
 }
 
 [type="radio"]:not(:checked) + span:after {

@@ -12,7 +12,7 @@
     </div>
 
     <div class="row container flow-text">
-      <form class="" action="" method="post">
+      <form class="" action="quizEnd" method="post">
         <%
           // Mix the order of correct and incorrect answers
           mixAnswers = function(answers) {
@@ -23,7 +23,6 @@
               rand = Math.floor(Math.random()*answers.length);
               allAnswers.push(answers[rand]);
               answers.splice(rand, 1);
-              console.log(answers.length);
             }
             return allAnswers;
           }
@@ -36,22 +35,26 @@
           allAnswers.push(question.correct)
           allAnswers = mixAnswers(allAnswers)
         %>
+        <div class="row">
           <div class="col s12">
             <h4><%= question.question %></h4>
+            <input name="question<%= count %>" type="hidden" value="<%= question.question %>">
             <%
               allAnswers.forEach(function(choice){
             %>
             <p>
               <label>
-                <input class="with-gap" name="group<%= count %>" type="radio"/>
-                <span><%= choice %></span>
+                <input class="with-gap" name="group<%= count %>" type="radio" value="<%= choice %>"" required/>
+                <span class="black-text"><%= choice %></span>
               </label>
             </p>
-            <% }); count = count + 1 %>
+            <% }); count++ %>
           </div>
+        </div>
         <% }); %>
+        <input name="count" type="hidden" value="<%= count %>">
         <div class="row">
-          <div class="col s12">
+          <div class="col s6 offset-s3">
             <button class="btn orange darken-2 waves-effect waves-light col s12">Submit</button>
           </div>
         </div>
