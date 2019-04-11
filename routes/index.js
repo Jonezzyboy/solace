@@ -87,11 +87,15 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
   answer,
   correct,
   percentage
+
+  var questionArray = []
+  var answerArray = []
   for (var i = 0; i < count; i++) {
     answer = eval('req.body.' + 'group' + i);
     question = eval('req.body.' + 'question' + i);
-
-    Quiz.findOne({ $and: [{question: question}, {correct: answer}] }, checkAnswer)
+    answerArray.push(answer);
+    questionArray.push(question);
+    Quiz.find({question:question}, {correct: answer}, checkAnswer)
 
     var checkAnswer = function(err, correct){
       if (err) return handleError(err);
@@ -101,9 +105,11 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
         // Add this score to db
         totalScore++
         percentage = Math.floor((totalScore/count)*100)
+        console.log(totalScore);
       }
     }
   }
+
   res.redirect('/quizgame');
 })
 
