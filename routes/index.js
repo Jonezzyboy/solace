@@ -52,8 +52,8 @@ router.get('/grade1terms', isLoggedIn, (req, res) => {
   res.render('grade1terms', {title: 'Grade 1: Terms'});
 })
 
-router.get('/quiz', isLoggedIn, (req, res) => {
-  res.render('quiz', {title: 'Games: Quiz'});
+router.get('/quizSelection', isLoggedIn, (req, res) => {
+  res.render('quizSelection', {title: 'Games: Quiz Selection'});
 })
 
 router.route('/quizGame')
@@ -63,23 +63,22 @@ router.route('/quizGame')
 .post( (req, res) => {
   // Return all questions depending on grade and category
   var questionQuery = JSON.parse(req.body.quizSelection);
-  Quiz.find({ $and: [{category: questionQuery.category}, {grade: questionQuery.grade}] }).exec( function (err, allQuestions) {
+  Quiz.find({ $and: [{category: questionQuery.category}, {grade: questionQuery.grade}] })
+  .exec( function (err, allQuestions) {
     if (err) {
       return callback(err)
+      res.redirect('quizSelection');
     }
     // Randomly select 10 questions from all questions returned
-    var index = 0;
     var rand = 0;
     var selectedQuestions = [];
     for (var i = 0; i < 10; i++) {
       rand = Math.floor(Math.random()*allQuestions.length);
-      index = allQuestions.indexOf(rand);
-      selectedQuestions.push(allQuestions[rand])
-      allQuestions.splice(index, 1);
-      console.log(allQuestions.length);
+      selectedQuestions.push(allQuestions[rand]);
+      allQuestions.splice(rand, 1);
     }
-    console.log(selectedQuestions);
-    res.redirect('games');
+    res.render('quizGame', {title: 'Quiz: Grade ' + questionQuery.grade + ' '
+    + questionQuery.quizTitle, questions: selectedQuestions});
   })
 })
 

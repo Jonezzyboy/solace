@@ -50,7 +50,7 @@
   {
     "grade": 1,
     "category": "scales",
-    "question": "What many sharps or flats does the C major scale have?",
+    "question": "How many sharps or flats does the C major scale have?",
     "incorrect": [
       "0 Sharps and 1 Flat",
       "1 Sharp and 0 Flats",
@@ -62,7 +62,7 @@
   {
     "grade": 1,
     "category": "scales",
-    "question": "What many sharps does the G major scale have?",
+    "question": "How many sharps does the G major scale have?",
     "incorrect": [
       "0 Sharps",
       "2 Sharps",
@@ -74,7 +74,7 @@
   {
     "grade": 1,
     "category": "scales",
-    "question": "What many sharps does the D major scale have?",
+    "question": "How many sharps does the D major scale have?",
     "incorrect": [
       "0 Sharps",
       "1 Sharps",
@@ -86,7 +86,7 @@
   {
     "grade": 1,
     "category": "scales",
-    "question": "What many flats does the F major scale have?",
+    "question": "How many flats does the F major scale have?",
     "incorrect": [
       "0 Flats",
       "2 Flats",
