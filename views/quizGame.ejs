@@ -12,7 +12,7 @@
     </div>
 
     <div class="row container flow-text">
-      <form class="" action="quizEnd" method="post">
+      <form class="quizForm" action="quizEnd" method="post">
         <%
           // Mix the order of correct and incorrect answers
           mixAnswers = function(answers) {
@@ -38,7 +38,10 @@
         <div class="row">
           <div class="col s12">
             <h4><%= question.question %></h4>
+            <input name="grade" type="hidden" value="<%= question.grade %>">
+            <input name="category" type="hidden" value="<%= question.category %>">
             <input name="question<%= count %>" type="hidden" value="<%= question.question %>">
+            <input name="correct<%= count %>" type="hidden" value="<%= question.correct %>">
             <%
               allAnswers.forEach(function(choice){
             %>

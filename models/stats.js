@@ -1,8 +1,16 @@
 const mongoose = require('mongoose');
 
-// Set schema for quiz questions
+// Set schema for statistics
 const StatsSchema = new mongoose.Schema({
   gameType: {
+    type: String,
+    required: true
+  },
+  category: {
+    type: String,
+    required: true
+  },
+  grade: {
     type: Number,
     required: true
   },
@@ -12,7 +20,7 @@ const StatsSchema = new mongoose.Schema({
     trim: true
   },
   scores: [{
-    score: Number,
+    percentage: Number,
     date: {type: Date, default: Date.now}
   }]
 });

@@ -88,28 +88,27 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
   correct,
   percentage
 
-  var questionArray = []
-  var answerArray = []
   for (var i = 0; i < count; i++) {
     answer = eval('req.body.' + 'group' + i);
     question = eval('req.body.' + 'question' + i);
-    answerArray.push(answer);
-    questionArray.push(question);
-    Quiz.find({question:question}, {correct: answer}, checkAnswer)
-
-    var checkAnswer = function(err, correct){
-      if (err) return handleError(err);
-      if (!correct) {
-        console.log("False");
-      } else {
-        // Add this score to db
-        totalScore++
-        percentage = Math.floor((totalScore/count)*100)
-        console.log(totalScore);
-      }
+    correct = eval('req.body.' + 'correct' + i);
+    if (answer == correct) {
+      totalScore++
     }
   }
-
+  percentage = Math.floor((totalScore/count)*100)
+  var gameData = {
+    gameType: "Quiz",
+    category: req.body.category[0],
+    grade: req.body.grade[0],
+    username: req.session.username,
+    scores: [{percentage: percentage}]
+  }
+  Stats.create(gameData, (err) => {
+    if(err){
+      res.render('quizSelection', {title: 'Games: Quiz Selection', err: 'Something Went Wrong'});
+    }
+  })
   res.redirect('/quizgame');
 })
 
@@ -143,7 +142,7 @@ router.route('/register')
   const userData = {
     username: req.body.username,
     password: req.body.password,
-    email: req.body.email,
+    email: req.body.email
   }
   // Insert user form data into DB with the User Schema
   User.create(userData, (err, user) => {
