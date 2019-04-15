@@ -21,11 +21,11 @@ app.use(cookieParser());
 app.set('view engine', 'ejs');
 
 app.use((req, res, next) => {
-    if (req.cookies.userId && !req.session.user) {
-        res.clearCookie('userId');
-        res.clearCookie('userId');
-    }
-    next();
+  if (req.cookies.userId && !req.session.user) {
+    res.clearCookie('userId');
+    res.clearCookie('userId');
+  }
+  next();
 });
 
 app.use(session({
