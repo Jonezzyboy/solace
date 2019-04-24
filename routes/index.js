@@ -53,6 +53,26 @@ router.get('/grade1terms', isLoggedIn, (req, res) => {
   res.render('grade1terms', {title: 'Grade 1: Terms'});
 })
 
+router.get('/grade2topics', isLoggedIn, (req, res) => {
+  res.render('grade2topics', {title: 'Grade 2: Topics'});
+})
+
+router.get('/grade2time', isLoggedIn, (req, res) => {
+  res.render('grade2time', {title: 'Grade 2: Time Signatures'});
+})
+
+router.get('/grade2stave', isLoggedIn, (req, res) => {
+  res.render('grade2stave', {title: 'Grade 2: The Stave'});
+})
+
+router.get('/grade2scales', isLoggedIn, (req, res) => {
+  res.render('grade2scales', {title: 'Grade 2: Minor Scales'});
+})
+
+router.get('/grade2terms', isLoggedIn, (req, res) => {
+  res.render('grade2terms', {title: 'Grade 2: Terms'});
+})
+
 router.route('/quizGame')
 .get( isLoggedIn, (req, res) => {
   res.render('quizSelection', {title: 'Games: Quiz Selection'});
@@ -104,11 +124,19 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
     username: req.session.username,
     scores: [{percentage: percentage}]
   }
-  Stats.create(gameData, (err) => {
-    if(err){
-      res.render('quizSelection', {title: 'Games: Quiz Selection', err: 'Something Went Wrong'});
+  Stats.findOneAndUpdate(
+    { category: gameData.category, grade: gameData.grade, username: gameData.username },
+    { $push: { scores: gameData.scores } },
+    (err, doc) => {
+      if(err || !doc){
+        Stats.create(gameData, (err) => {
+          if(err){
+            res.render('quizSelection', {title: 'Games: Quiz Selection', err: 'Something Went Wrong'});
+          }
+        })
+      }
     }
-  })
+  );
   res.redirect('/quizgame');
 })
 
