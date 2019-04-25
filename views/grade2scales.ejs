@@ -1,0 +1,554 @@
+<% include ./include/head %>
+<% include ./include/musicnotation %>
+<body>
+  <% include ./include/nav %>
+  <main class="light-blue lighten-4">
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Minor Scales</h2>
+        <p>Understanding how to build a natural, harmonic, or melodic minor scale (Click each heading for a description)</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#natural">Natural</a></li>
+        <li class="tab"><a href="#harmonic">Harmonic</a></li>
+        <li class="tab"><a href="#melodic">Melodic</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+      <div class="col offset-s2">
+        <div id="natural" class="col s12">
+          <div class="col s11">
+            <h3>Natural Minor Scale</h3>
+            <p>The Natural minor scale can be written as:</p>
+            <p><b>Tone</b>, <b>Semitone</b>, <b>Tone</b>, <b>Tone</b>, <b>Semitone</b>, <b>Tone</b>, <b>Tone</b></p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = treble
+                notes :4 A-B/3 C-D-E-F-G-A/4
+                text :4, A, B, C, D, E, F, G, A
+              </div>
+            </div>
+            <p>Here we see the A natural minor scale</p>
+          </div>
+        </div>
+
+        <div id="harmonic" class="col s12">
+          <div class="col s11">
+            <h3>Harmonic Minor Scale</h3>
+            <p>The Harmonic minor scale can be written as:</p>
+            <p><b>Tone</b>, <b>Semitone</b>, <b>Tone</b>, <b>Tone</b>, <b>Semitone</b>, <b>Tone and a half</b>, <b>Semitone</b></p>
+            <p>It can also be worked out using the natural minor and sharpening the seventh</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = treble
+                notes :4 A-B/3 C-D-E-F-G#-A/4
+                text :4, A, B, C, D, E, F, G#, A
+              </div>
+            </div>
+            <p>Here we see the A harmonic minor scale</p>
+          </div>
+        </div>
+
+        <div id="melodic" class="melodic col s12">
+          <div class="col s11">
+            <h3>Melodic Minor Scale</h3>
+            <p>The Melodic minor scale is different ascending and descending</p>
+            <p>The Melodic minor ascending scale can be written as:</p>
+            <p><b>Tone</b>, <b>Semitone</b>, <b>Tone</b>, <b>Tone</b>, <b>Tone</b>, <b>Tone</b>, <b>Semitone</b></p>
+            <p>It can also be worked out using the natural minor and sharpening the sixth and seventh</p>
+            <p>The Melodic minor descending scale is the same as the Natural minor scale</p>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = treble
+                notes :4 A-B/3 C-D-E-F#-G#-A-Gn-Fn-E-D-C/4 B-A/3
+                text :4, A, B, C, D, E, F#, G#, A, G♮, F♮, E, D, C, B, A
+              </div>
+            </div>
+            <p>Here we see the whole A melodic minor scale</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Advanced Major Scales</h2>
+        <p>More advanced major scales including sharps and flats (Click each heading for a description)</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#a">A Major</a></li>
+        <li class="tab"><a href="#bb">B♭ Major</a></li>
+        <li class="tab"><a href="#eb">E♭ Major</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+
+      <div class="col offset-s2">
+
+        <div id="a" class="col s12">
+          <div class="col s12">
+            <h3>A Major</h3>
+            <p>The A major scale has 3 sharps: C#, F#, G#</p>
+            <p>The scale starts on A</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = A
+                notes :4 A-B/3 C-D-E-F-G-A/4
+                text :4, A, B, C#, D, E, F#, G#, A
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = A
+                notes :4 A-B/2 C-D-E-F-G-A/3
+                text :4, A, B, C#, D, E, F#, G#, A
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="bb" class="col s12">
+          <div class="col s12">
+            <h3>B♭ Major</h3>
+            <p>The B♭ major scale has 2 flats: B♭, E♭</p>
+            <p>The scale starts on B♭</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Bb
+                notes :4 B/3 C-D-E-F-G-A-B/4
+                text :4, B♭, C, D, E♭, F, G, A, B♭
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Bb
+                notes :4 B/2 C-D-E-F-G-A-B/3
+                text :4, B♭, C, D, E♭, F, G, A, B♭
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="eb" class="col s12">
+          <div class="col s12">
+            <h3>E♭ Major</h3>
+            <p>The E♭ major scale has 3 flats: B♭, E♭, A♭</p>
+            <p>The scale starts on E♭</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Eb
+                notes :4 E-F-G-A-B/4 C-D-E/5
+                text :4, E♭, F, G, A♭, B♭, C, D, E♭
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Eb
+                notes :4 E-F-G-A-B/2 C-D-E/3
+                text :4, E♭, F, G, A♭, B♭, C, D, E♭
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Natural Minor Scales</h2>
+        <p>Basic natural minor scales</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#anm">A Natural Minor</a></li>
+        <li class="tab"><a href="#enm">E Natural Minor</a></li>
+        <li class="tab"><a href="#dnm">D Natural Minor</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+      <div class="col offset-s2">
+        <div id="anm" class="col s12">
+          <div class="col s12">
+            <h3>A Natural Minor</h3>
+            <p>The A natural minor scale has no sharps or flats</p>
+            <p>The scale starts on A</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Am
+                notes :4 A-B/3 C-D-E-F-G-A/4
+                text :4, A, B, C, D, E, F, G, A
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Am
+                notes :4 A-B/2 C-D-E-F-G-A/3
+                text :4, A, B, C, D, E, F, G, A
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="enm" class="col s12">
+          <div class="col s12">
+            <h3>E Natural Minor</h3>
+            <p>The E natural minor scale has 1 sharp: F#</p>
+            <p>The scale starts on E</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Em
+                notes :4 E-F-G-A-B/4 C-D-E/5
+                text :4, E, F#, G, A, B, C, D, E
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Am
+                notes :4 E-F-G-A-B/2 C-D-E/3
+                text :4, E, F#, G, A, B, C, D, E
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="dnm" class="col s12">
+          <div class="col s12">
+            <h3>D Natural Minor</h3>
+            <p>The D natural minor scale has 1 flat: B♭</p>
+            <p>The scale starts on D</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Dm
+                notes :4 D-E-F-G-A-B/4 C-D/5
+                text :4, D, E, F, G, A, B♭, C, D
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Dm
+                notes :4 D-E-F-G-A-B/3 C-D/4
+                text :4, D, E, F, G, A, B♭, C, D
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Harmonic Minor Scales</h2>
+        <p>Basic harmonic minor scales</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#ahm">A Harmonic Minor</a></li>
+        <li class="tab"><a href="#ehm">E Harmonic Minor</a></li>
+        <li class="tab"><a href="#dhm">D Harmonic Minor</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+      <div class="col offset-s2">
+        <div id="ahm" class="col s12">
+          <div class="col s12">
+            <h3>A Harmonic Minor</h3>
+            <p>The A harmonic minor scale has one accidental sharp: G#</p>
+            <p>The accidental is not shown in the key signature</p>
+            <p>The scale starts on A</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Am
+                notes :4 A-B/3 C-D-E-F-G#-A/4
+                text :4, A, B, C, D, E, F, G#, A
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Am
+                notes :4 A-B/2 C-D-E-F-G#-A/3
+                text :4, A, B, C, D, E, F, G#, A
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="ehm" class="col s12">
+          <div class="col s12">
+            <h3>E Harmonic Minor</h3>
+            <p>The E harmonic minor scale has 1 sharp: F# and one accidental sharp: D#</p>
+            <p>The accidental is not shown in the key signature</p>
+            <p>The scale starts on E</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Em
+                notes :4 E-F-G-A-B/4 C-D#-E/5
+                text :4, E, F#, G, A, B, C, D#, E
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Am
+                notes :4 E-F-G-A-B/2 C-D#-E/3
+                text :4, E, F#, G, A, B, C, D#, E
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="dhm" class="col s12">
+          <div class="col s12">
+            <h3>D Harmonic Minor</h3>
+            <p>The D harmonic minor scale has 1 flat: B♭ and one accidental sharp: C#</p>
+            <p>The accidental is not shown in the key signature</p>
+            <p>The scale starts on D</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Dm
+                notes :4 D-E-F-G-A-B/4 C#-D/5
+                text :4, D, E, F, G, A, B♭, C#, D
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=450 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Dm
+                notes :4 D-E-F-G-A-B/3 C#-D/4
+                text :4, D, E, F, G, A, B♭, C#, D
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section white z-depth-2">
+      <div class="container flow-text">
+        <h2 class="header">Melodic Minor Scales</h2>
+        <p>Basic melodic minor scales</p>
+      </div>
+    </div>
+    <div class="col s12">
+      <ul class="tabs tabs-fixed-width z-depth-1">
+        <li class="tab"><a class="active" href="#amm">A Melodic Minor</a></li>
+        <li class="tab"><a href="#emm">E Melodic Minor</a></li>
+        <li class="tab"><a href="#dmm">D Melodic Minor</a></li>
+      </ul>
+    </div>
+
+    <div class="row container flow-text">
+      <div class="col offset-s2">
+        <div id="amm" class="col s12">
+          <div class="col s12">
+            <h3>A Melodic Minor</h3>
+            <p>The A melodic minor scale has two accidental sharps: F#, G#</p>
+            <p>The accidentals are not shown in the key signature</p>
+            <p>The scale starts on A</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Am
+                notes :4 A-B/3 C-D-E-F#-G#-A-Gn-Fn-E-D-C/4 B-A/3
+                text :4, A, B, C, D, E, F, G#, A, G♮, F♮, E, D, C, B, A
+                text ++, .12, :4, 1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Am
+                notes :4 A-B/2 C-D-E-F-G#-A-Gn-Fn-E-D-C/3 B-A/2
+                text :4, A, B, C, D, E, F, G#, A, G♮, F♮, E, D, C, B, A
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="emm" class="col s12">
+          <div class="col s12">
+            <h3>E Melodic Minor</h3>
+            <p>The E melodic minor scale has 1 sharp: F# and two accidental sharps:C#, D#</p>
+            <p>The accidentals are not shown in the key signature</p>
+            <p>The scale starts on E</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Em
+                notes :4 E-F-G-A-B/4 C#-D#-E-Dn-Cn/5 B-A-G-F-E/4
+                text :4, E, F#, G, A, B, C#, D#, E, C♮, D♮, B, A, G, F#, E
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Am
+                notes :4 E-F-G-A-B/2 C#-D#-E-Dn-Cn/3 B-A-G-F-E/2
+                text :4, E, F#, G, A, B, C#, D#, E, C♮, D♮, B, A, G, F#, E
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="dmm" class="col s12">
+          <div class="col s12">
+            <h3>D Melodic Minor</h3>
+            <p>The D melodic minor scale has its only flat of B♭ raised as an accidental and a second accidental: C#</p>
+            <p>The accidentals are not shown in the key signature</p>
+            <p>The scale starts on D</p>
+            <h4>Treble Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+                options space = 10 font-size=12
+                stave
+                clef = treble
+                key = Dm
+                notes :4 D-E-F-G-A-Bn/4 C#-D-C/5 B@-A-G-F-E-D/4
+                text :4, D, E, F, G, A, B♮, C#, D, C#, B♭, A, G, F, E, D
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1
+                options space = 20
+              </div>
+            </div>
+            <h4>Bass Clef: </h4>
+            <div class="stave">
+              <div class="col s12 vex-tabdiv" width=500 scale=1.3>
+                options space=10 font-size=12
+                stave
+                clef = bass
+                key = Dm
+                notes :4 D-E-F-G-A-Bn/3 C#-D-C/4 B@-A-G-F-E-D/3
+                text :4, D, E, F, G, A, B♮, C#, D, C#, B♭, A, G, F, E, D
+                text ++, .11, :4, 1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2, 1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <% include ./include/scripts %>
+  <% include ./include/footer %>
