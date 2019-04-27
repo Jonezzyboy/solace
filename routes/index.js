@@ -107,6 +107,9 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
   answer,
   correct,
   percentage
+  var questions = [];
+  var allAnswers = [];
+  var correctAnswers = [];
 
   for (var i = 0; i < count; i++) {
     answer = eval('req.body.' + 'group' + i);
@@ -115,6 +118,9 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
     if (answer == correct) {
       totalScore++
     }
+    questions.push(question);
+    allAnswers.push(answer);
+    correctAnswers.push(correct);
   }
   percentage = Math.floor((totalScore/count)*100)
   var gameData = {
@@ -137,7 +143,7 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
       }
     }
   );
-  res.redirect('/quizgame');
+  res.render('quizResults', {title: 'Games: Quiz Results', questions: questions, answers: allAnswers, correct: correctAnswers, percentage: percentage});
 })
 
 router.route('/login')

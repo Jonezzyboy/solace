@@ -1,0 +1,28 @@
+<% include ./include/head %>
+<body>
+  <% include ./include/nav %>
+  <main>
+
+    <div class="section white">
+      <div class="row container flow-text">
+        <h2 class="header">Quiz Results</h2>
+        <span>You Scored: <%= percentage %>%</span>
+      </div>
+    </div>
+    <div class="row container flow-text">
+      <% for (var i = 0; i < questions.length; i++) { %>
+        <div class="row">
+          <h4><%= questions[i] %></h4>
+          <% if(answers[i] != correct[i]){ %>
+            <p class = "red-text">Your Answer: <%= answers[i] %></p>
+            <p>Correct Answer: <%= correct[i] %></p>
+          <% } else{ %>
+            <p class = "green-text">Your Answer: <%= answers[i] %></p>
+          <% } %>
+        </div>
+      <% } %>
+    </div>
+
+  </main>
+  <% include ./include/scripts %>
+  <% include ./include/footer %>
