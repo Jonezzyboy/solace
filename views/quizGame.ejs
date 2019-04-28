@@ -7,12 +7,11 @@
     <div class="section white">
       <div class="row container flow-text">
         <h2 class="header">Quiz</h2>
-        <p>Select which topic you would like to be quizzed on?</p>
       </div>
     </div>
 
     <div class="row container flow-text">
-      <form class="quizForm" action="quizEnd" method="post">
+      <form class="quizForm" action="quizEnd" method="POST">
         <%
           // Mix the order of correct and incorrect answers
           mixAnswers = function(answers) {
@@ -56,6 +55,7 @@
         </div>
         <% }); %>
         <input name="count" type="hidden" value="<%= count %>">
+        <input name="quizTitle" type="hidden" value="<%= quizTitle %>">
         <div class="row">
           <div class="col s6 offset-s3">
             <button class="btn orange darken-2 waves-effect waves-light col s12">Submit</button>

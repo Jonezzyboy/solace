@@ -95,12 +95,13 @@ router.route('/quizGame')
       allQuestions.splice(rand, 1);
     }
     res.render('quizGame', {title: 'Quiz: Grade ' + questionQuery.grade + ' '
-    + questionQuery.quizTitle, questions: selectedQuestions});
+    + questionQuery.quizTitle, questions: selectedQuestions, quizTitle: questionQuery.quizTitle});
   })
 })
 
 router.post('/quizEnd', isLoggedIn, (req, res) => {
   var count = req.body.count;
+  var quizTitle = req.body.quizTitle;
   var totalScore = 0
   var
   question,
@@ -143,7 +144,7 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
       }
     }
   );
-  res.render('quizResults', {title: 'Games: Quiz Results', questions: questions, answers: allAnswers, correct: correctAnswers, percentage: percentage});
+  res.render('quizResults', {title: 'Games: Quiz Results', questions: questions, answers: allAnswers, correct: correctAnswers, percentage: percentage, grade: gameData.grade, category: gameData.category, quizTitle: quizTitle});
 })
 
 router.route('/login')
