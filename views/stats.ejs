@@ -1,0 +1,49 @@
+<% include ./include/head %>
+<link type="text/css" rel="stylesheet" href="static/css/quiz.css" media="screen,projection">
+<body>
+  <% include ./include/nav %>
+  <main>
+
+    <div class="section white">
+      <div class="row container flow-text">
+        <h2 class="header">Statistics</h2>
+      </div>
+    </div>
+
+    <div class="row container flow-text">
+      <% for (var i = 0; i < allStats.length; i++) { %>
+        <div class="col m4">
+        <h4>Grade <%= allStats[i].grade %>: <%= allStats[i].quizTitle %></h4>
+        <%
+        var percentageArray = [];
+        for (var j = 0; j < allStats[i].scores.length; j++){
+          percentageArray.push(allStats[i].scores[j].percentage);
+        }
+        var largest = Math.max(percentageArray);
+        for (var j = 0; j < allStats[j].scores.length; j++){
+          if (allStats[i].scores[j].percentage == largest) {
+            var date = allStats[i].scores[j].date;
+          }
+          var date = formatDate(date);
+          function formatDate(date) {
+            var d = new Date(date),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+
+            if (month.length < 2) month = '0' + month;
+            if (day.length < 2) day = '0' + day;
+
+            return [day, month, year].join('-');
+          }
+        }
+        %>
+        <h5>Your best Score: <%= largest %>%</h5>
+        <h5>Date: <%= date %><h5>
+        </div>
+        <% } %>
+      </div>
+
+    </main>
+    <% include ./include/scripts %>
+    <% include ./include/footer %>

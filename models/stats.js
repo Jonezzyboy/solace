@@ -10,6 +10,10 @@ const StatsSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  quizTitle: {
+    type: String,
+    required: true
+  },
   grade: {
     type: Number,
     required: true

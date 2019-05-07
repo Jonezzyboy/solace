@@ -26,7 +26,14 @@ router.get('/games', isLoggedIn, (req, res) => {
 })
 
 router.get('/stats', isLoggedIn, (req, res) => {
-  res.render('stats', {title: 'Stats'});
+  Stats.find({username: req.session.username})
+  .exec( function (err, allStats) {
+    if (err || !allStats) {
+      return null;
+    } else {
+      res.render('stats', {title: 'Statistics', allStats: allStats});
+    }
+  });
 })
 
 router.get('/grade1topics', isLoggedIn, (req, res) => {
@@ -127,6 +134,7 @@ router.post('/quizEnd', isLoggedIn, (req, res) => {
   var gameData = {
     gameType: "Quiz",
     category: req.body.category[0],
+    quizTitle: quizTitle,
     grade: req.body.grade[0],
     username: req.session.username,
     scores: [{percentage: percentage}]
