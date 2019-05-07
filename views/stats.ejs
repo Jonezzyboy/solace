@@ -20,6 +20,8 @@
           percentageArray.push(allStats[i].scores[j].percentage);
         }
         var largest = Math.max(percentageArray);
+        var sum = percentageArray.reduce((previous, current) => current += previous);
+        var avg = sum / percentageArray.length;
         for (var j = 0; j < allStats[j].scores.length; j++){
           if (allStats[i].scores[j].percentage == largest) {
             var date = allStats[i].scores[j].date;
@@ -34,12 +36,12 @@
             if (month.length < 2) month = '0' + month;
             if (day.length < 2) day = '0' + day;
 
-            return [day, month, year].join('-');
+            return [day, month, year].join('/');
           }
         }
         %>
-        <h5>Your best Score: <%= largest %>%</h5>
-        <h5>Date: <%= date %><h5>
+        <h5>Best Score: <%= largest %>% (<%= date %>)</h5>
+        <h5>Average Score is: <%= avg %>%</h5>
         </div>
         <% } %>
       </div>
