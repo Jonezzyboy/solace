@@ -1,0 +1,134 @@
+[
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "What time signature has 2 minim beats to a bar?",
+    "incorrect": [
+      "3/2",
+      "2/4",
+      "5/4"
+    ],
+    "correct": "2/2"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "How can you represent 2/2 with a letter?",
+    "incorrect": [
+      "Capital T",
+      "Capital T with a line through the middle",
+      "Capital C"
+    ],
+    "correct": "Capital C with a line through the middle"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "What time signature can be represented by a capital C with a line through the middle",
+    "incorrect": [
+      "3/2",
+      "2/4",
+      "5/4"
+    ],
+    "correct": "2/2"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "What time signature is also known as cut common time?",
+    "incorrect": [
+      "3/2",
+      "2/4",
+      "5/4"
+    ],
+    "correct": "2/2"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "How many minim beats are there in cut common time per bar?",
+    "incorrect": [
+      "4 minims",
+      "3 minims",
+      "5 minims"
+    ],
+    "correct": "2 minims"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "What time signature has 3 minim beats to a bar?",
+    "incorrect": [
+      "2/2",
+      "2/4",
+      "4/2"
+    ],
+    "correct": "3/2"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "What time signature has 4 minim beats to a bar?",
+    "incorrect": [
+      "2/2",
+      "2/4",
+      "3/2"
+    ],
+    "correct": "4/2"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "What time signature has 3 quaver beats to a bar?",
+    "incorrect": [
+      "2/2",
+      "3/4",
+      "3/2"
+    ],
+    "correct": "3/8"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "How many minim beats are there in 2/2?",
+    "incorrect": [
+      "4 minims",
+      "3 minims",
+      "5 minims"
+    ],
+    "correct": "2 minims"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "How many minim beats are there in 3/2?",
+    "incorrect": [
+      "4 minims",
+      "2 minims",
+      "5 minims"
+    ],
+    "correct": "3 minims"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "How many minim beats are there in 4/2?",
+    "incorrect": [
+      "3 minims",
+      "2 minims",
+      "5 minims"
+    ],
+    "correct": "4 minims"
+  },
+  {
+    "grade": 2,
+    "category": "timeSignatures",
+    "question": "How many quaver beats are there in 3/8?",
+    "incorrect": [
+      "2 quavers",
+      "8 quavers",
+      "4 quavers"
+    ],
+    "correct": "3 quavers"
+  }
+]

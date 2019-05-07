@@ -1,0 +1,354 @@
+[
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Accelerando stand for?",
+    "incorrect": [
+      "Gradually getting slower",
+      "Stay the same speed",
+      "Stop playing"
+    ],
+    "correct": "Gradually getting quicker"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Adagio stand for?",
+    "incorrect": [
+      "Gradually getting slower",
+      "Gradually getting quicker",
+      "Fast"
+    ],
+    "correct": "Slow"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Allegretto stand for?",
+    "incorrect": [
+      "Gradually getting slower",
+      "Gradually getting quicker",
+      "Slow"
+    ],
+    "correct": "Fairly quick"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Allegro stand for?",
+    "incorrect": [
+      "Very slow",
+      "Very Fast",
+      "Slow"
+    ],
+    "correct": "Quick"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Andante stand for?",
+    "incorrect": [
+      "Very loud",
+      "Fast Speed",
+      "Slow Speed"
+    ],
+    "correct": "Medium Speed"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Lento stand for?",
+    "incorrect": [
+      "Very loud",
+      "Fast Speed",
+      "Very quiet"
+    ],
+    "correct": "Slow"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Rallentando stand for?",
+    "incorrect": [
+      "Very loud",
+      "Stay the same speed",
+      "Gradually getting quicker"
+    ],
+    "correct": "Gradually getting slower"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Ritardando stand for?",
+    "incorrect": [
+      "Very loud",
+      "Stay the same speed",
+      "Gradually getting quicker"
+    ],
+    "correct": "Gradually getting slower"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Ritenuto stand for?",
+    "incorrect": [
+      "Immediately quicker",
+      "Stay the same speed",
+      "Gradually getting quicker"
+    ],
+    "correct": "Immediately slower"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Tempo stand for?",
+    "incorrect": [
+      "Space/Time",
+      "Speed/Space",
+      "Slow Pace"
+    ],
+    "correct": "Speed/Time"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Piano stand for?",
+    "incorrect": [
+      "Very Loud",
+      "Loud",
+      "Very Quiet"
+    ],
+    "correct": "Quiet"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Pianissimo stand for?",
+    "incorrect": [
+      "Very Loud",
+      "Loud",
+      "Quiet"
+    ],
+    "correct": "Very Quiet"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Mezzo Piano stand for?",
+    "incorrect": [
+      "Very Loud",
+      "Quiet",
+      "Very Quiet"
+    ],
+    "correct": "Moderately Quiet"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Forte stand for?",
+    "incorrect": [
+      "Very Loud",
+      "Moderately Loud",
+      "Quiet"
+    ],
+    "correct": "Loud"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Fortissimo stand for?",
+    "incorrect": [
+      "Loud",
+      "Moderately Loud",
+      "Quiet"
+    ],
+    "correct": "Very Loud"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Mezzo Forte stand for?",
+    "incorrect": [
+      "Very Loud",
+      "Loud",
+      "Quiet"
+    ],
+    "correct": "Moderately Loud"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Crescendo stand for?",
+    "incorrect": [
+      "Quiet",
+      "Loud",
+      "Gradually getting quieter"
+    ],
+    "correct": "Gradually getting louder"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Diminuendo stand for?",
+    "incorrect": [
+      "Quiet",
+      "Loud",
+      "Gradually getting louder"
+    ],
+    "correct": "Gradually getting quieter"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Decrescendo stand for?",
+    "incorrect": [
+      "Quiet",
+      "Loud",
+      "Gradually getting louder"
+    ],
+    "correct": "Gradually getting quieter"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Cantabile stand for?",
+    "incorrect": [
+      "In a sudden style",
+      "In a quick style",
+      "In a shouting style"
+    ],
+    "correct": "In a singing style"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Da Capo stand for?",
+    "incorrect": [
+      "Repeat from the sign",
+      "Repeat from the end",
+      "In a shouting style"
+    ],
+    "correct": "Repeat from the beginning"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Dal Segno stand for?",
+    "incorrect": [
+      "Repeat from the beginning",
+      "Repeat from the end",
+      "In a shouting style"
+    ],
+    "correct": "Repeat from the sign"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Fine stand for?",
+    "incorrect": [
+      "The beginning",
+      "The chorus",
+      "The middle"
+    ],
+    "correct": "The end"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Legato stand for?",
+    "incorrect": [
+      "Disjointed",
+      "Broken",
+      "Roughly"
+    ],
+    "correct": "Smoothly"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Moderato stand for?",
+    "incorrect": [
+      "Disjointed",
+      "Broken",
+      "Brief"
+    ],
+    "correct": "Moderately"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Poco stand for?",
+    "incorrect": [
+      "A lot",
+      "Moderately",
+      "Pointed"
+    ],
+    "correct": "A little"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does 8va stand for?",
+    "incorrect": [
+      "The 8th note",
+      "Same Octave",
+      "Octave Below"
+    ],
+    "correct": "Octave Above"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does 8vb stand for?",
+    "incorrect": [
+      "The 8th note",
+      "Same Octave",
+      "Octave Above"
+    ],
+    "correct": "Octave Below"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Accent stand for?",
+    "incorrect": [
+      "Detached",
+      "Change pace",
+      "Emphasise nothing"
+    ],
+    "correct": "Emphasise the note"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "What does Staccato stand for?",
+    "incorrect": [
+      "Attached",
+      "Change pace",
+      "Emphasise nothing"
+    ],
+    "correct": "Detached"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "How do you draw an Accent?",
+    "incorrect": [
+      "Shown with a square above or below the note head",
+      "Shown with a triangle above or below the note head",
+      "Shown with a dot above or below the note head"
+    ],
+    "correct": "Shown with a > above or below the note head"
+  },
+  {
+    "grade": 1,
+    "category": "terms",
+    "question": "How do you draw Staccato?",
+    "incorrect": [
+      "Shown with a square above or below the note head",
+      "Shown with a triangle above or below the note head",
+      "Shown with a > above or below the note head"
+    ],
+    "correct": "Shown with a dot above or below the note head"
+  }
+]

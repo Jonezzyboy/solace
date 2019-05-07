@@ -1,0 +1,365 @@
+[
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How can a natural minor scale be written with tones and semitones?",
+    "incorrect": [
+      "Tone, Semitone, Tone, Tone, Tone, Tone, Semitone",
+      "Tone, Semitone, Tone, Tone, Semitone, Tone and a half, Semitone",
+      "Tone, Semitone, Semitone, Semitone, Semitone, Tone, Tone"
+    ],
+    "correct": "Tone, Semitone, Tone, Tone, Semitone, Tone, Tone"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How can a harmonic minor scale be written with tones and semitones?",
+    "incorrect": [
+      "Tone, Semitone, Tone, Tone, Tone, Tone, Semitone",
+      "Tone, Semitone, Tone, Tone, Semitone, Tone, Tone",
+      "Tone, Semitone, Semitone, Semitone, Semitone, Tone, Tone"
+    ],
+    "correct": "Tone, Semitone, Tone, Tone, Semitone, Tone and a half, Semitone"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How can an ascending melodic minor scale be written with tones and semitones?",
+    "incorrect": [
+      "Tone, Semitone, Tone, Tone, Semitone, Tone, Tone",
+      "Tone, Semitone, Tone, Tone, Semitone, Tone and a half, Semitone",
+      "Tone, Semitone, Semitone, Semitone, Semitone, Tone, Tone"
+    ],
+    "correct": "Tone, Semitone, Tone, Tone, Tone, Tone, Semitone"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is the descending melodic minor scale the same as?",
+    "incorrect": [
+      "The exact same",
+      "Major scale",
+      "Harmonic minor scale"
+    ],
+    "correct": "Natural minor scale"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "Are Melodic and Hamronic minor accidentals shown in the key signature?",
+    "incorrect": [
+      "Only 7ths",
+      "Sometimes",
+      "Yes"
+    ],
+    "correct": "No"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What natural minor scale has no sharps or flats?",
+    "incorrect": [
+      "E Natural Minor",
+      "D Natural Minor",
+      "C Natural Minor"
+    ],
+    "correct": "A Natural Minor"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What natural minor scale has one sharp?",
+    "incorrect": [
+      "A Natural Minor",
+      "D Natural Minor",
+      "C Natural Minor"
+    ],
+    "correct": "E Natural Minor"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What natural minor scale has one flat?",
+    "incorrect": [
+      "A Natural Minor",
+      "E Natural Minor",
+      "C Natural Minor"
+    ],
+    "correct": "D Natural Minor"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How many sharps or flats does the A natural minor scale have?",
+    "incorrect": [
+      "2 Sharps",
+      "1 Flat",
+      "1 Sharp"
+    ],
+    "correct": "0 Sharps or Flats"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How many sharps or flats does the E natural minor scale have?",
+    "incorrect": [
+      "2 Sharps",
+      "1 Flat",
+      "0 Sharps or Flats"
+    ],
+    "correct": "1 Sharp"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How many sharps or flats does the D natural minor scale have?",
+    "incorrect": [
+      "2 Flats",
+      "1 Sharp",
+      "0 Sharps or Flats"
+    ],
+    "correct": "1 Flat"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What sharps or flats does the A natural minor scale have?",
+    "incorrect": [
+      "A#",
+      "B♭",
+      "F#"
+    ],
+    "correct": "0 Sharps or Flats"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What sharps or flats does the E natural minor scale have?",
+    "incorrect": [
+      "A#",
+      "B♭",
+      "0 Sharps or Flats"
+    ],
+    "correct": "F#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What sharps or flats does the D natural minor scale have?",
+    "incorrect": [
+      "A#",
+      "F#",
+      "0 Sharps or Flats"
+    ],
+    "correct": "B♭"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What accidentals does the A harmonic minor scale have?",
+    "incorrect": [
+      "A#",
+      "B♭",
+      "F#"
+    ],
+    "correct": "G#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What accidentals and sharps does the E harmonic minor scale have?",
+    "incorrect": [
+      "F#, C#, and D#",
+      "F# and A#",
+      "F# and E#"
+    ],
+    "correct": "F# and D#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What accidentals, sharps, and flats does the D harmonic minor scale have?",
+    "incorrect": [
+      "B♭ and D#",
+      "B♭ and A#",
+      "B♭ and E#"
+    ],
+    "correct": "B♭ and C#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What accidentals does the ascending A melodic minor scale have?",
+    "incorrect": [
+      "A#",
+      "F# and D#",
+      "F# and A#"
+    ],
+    "correct": "F# and G#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What accidentals and sharps does the ascending E melodic minor scale have?",
+    "incorrect": [
+      "F#, A#, and D#",
+      "F# and A#",
+      "F#, E#, and D#"
+    ],
+    "correct": "F#, C#, and D#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What accidentals, sharps, and flats does the D harmonic minor scale have?",
+    "incorrect": [
+      "B♮ and D#",
+      "B♭ and A#",
+      "B♭ and C#"
+    ],
+    "correct": "B♮ and C#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How many sharps does the A major scale have?",
+    "incorrect": [
+      "0 Sharps",
+      "2 Sharps",
+      "1 Sharp"
+    ],
+    "correct": "3 Sharps"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How many flats does the B♭ major scale have?",
+    "incorrect": [
+      "0 Flats",
+      "3 Flats",
+      "1 Flats"
+    ],
+    "correct": "2 Flats"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "How many flats does the E♭ major scale have?",
+    "incorrect": [
+      "0 Flats",
+      "2 Flats",
+      "1 Flats"
+    ],
+    "correct": "3 Flats"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What sharps does the A major scale have?",
+    "incorrect": [
+      "E#, F#, and A#",
+      "D#, F#, and G#",
+      "C#, F#, and A#"
+    ],
+    "correct": "C#, F#, and G#"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What flats does the B♭ major scale have?",
+    "incorrect": [
+      "B♭ and A♭",
+      "B♭, E♭, and A♭",
+      "B♭ and D♭"
+    ],
+    "correct": "B♭ and E♭"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What flats does the E♭ major scale have?",
+    "incorrect": [
+      "B♭, A♭, and D♭",
+      "B♭, E♭, and D♭",
+      "B♭ and E♭"
+    ],
+    "correct": "B♭, E♭, and A♭"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is a minor tonic triad made up of?",
+    "incorrect": [
+      "The Second (2), The Third (3), The Fifth (5)",
+      "The Tonic (1), The Third (3), The Fourth (4)",
+      "The Tonic (1), The Second (2), The Fifth (5)"
+    ],
+    "correct": "The Tonic (1), The Third (3), The Fifth (5)"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is the A minor tonic triad made up of?",
+    "incorrect": [
+      "A, F, E",
+      "A, D, E",
+      "A, C, D"
+    ],
+    "correct": "A, C, E"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is the E minor tonic triad made up of?",
+    "incorrect": [
+      "E, B, C",
+      "E, G, C",
+      "E, G, D"
+    ],
+    "correct": "E, G, B"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is the D minor tonic triad made up of?",
+    "incorrect": [
+      "D, F, B",
+      "D, F, C",
+      "D, G, A"
+    ],
+    "correct": "D, F, A"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is the A major tonic triad made up of?",
+    "incorrect": [
+      "A, B, E",
+      "A, D, E",
+      "A, C#, D"
+    ],
+    "correct": "A, C#, E"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is the B♭ major tonic triad made up of?",
+    "incorrect": [
+      "B♭, C, E",
+      "B♭, D, G",
+      "B♭, E, F"
+    ],
+    "correct": "B♭, D, F"
+  },
+  {
+    "grade": 2,
+    "category": "scales",
+    "question": "What is the E♭ major tonic triad made up of?",
+    "incorrect": [
+      "E♭, A♭, B♭",
+      "E♭, B♭, C",
+      "E♭, G, D♭"
+    ],
+    "correct": "E♭, G, B♭"
+  }
+]
