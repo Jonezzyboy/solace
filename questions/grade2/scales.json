@@ -10,6 +10,7 @@
     ],
     "correct": "Tone, Semitone, Tone, Tone, Semitone, Tone, Tone"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -21,6 +22,7 @@
     ],
     "correct": "Tone, Semitone, Tone, Tone, Semitone, Tone and a half, Semitone"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -32,6 +34,7 @@
     ],
     "correct": "Tone, Semitone, Tone, Tone, Tone, Tone, Semitone"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -43,6 +46,7 @@
     ],
     "correct": "Natural minor scale"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -54,6 +58,7 @@
     ],
     "correct": "No"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -65,6 +70,7 @@
     ],
     "correct": "A Natural Minor"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -76,6 +82,7 @@
     ],
     "correct": "E Natural Minor"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -87,6 +94,7 @@
     ],
     "correct": "D Natural Minor"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -98,6 +106,7 @@
     ],
     "correct": "0 Sharps or Flats"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -109,6 +118,7 @@
     ],
     "correct": "1 Sharp"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -120,6 +130,7 @@
     ],
     "correct": "1 Flat"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -131,6 +142,7 @@
     ],
     "correct": "0 Sharps or Flats"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -142,6 +154,7 @@
     ],
     "correct": "F#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -153,6 +166,7 @@
     ],
     "correct": "B♭"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -164,6 +178,7 @@
     ],
     "correct": "G#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -175,6 +190,7 @@
     ],
     "correct": "F# and D#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -186,6 +202,7 @@
     ],
     "correct": "B♭ and C#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -197,6 +214,7 @@
     ],
     "correct": "F# and G#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -208,6 +226,7 @@
     ],
     "correct": "F#, C#, and D#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -219,6 +238,7 @@
     ],
     "correct": "B♮ and C#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -230,6 +250,7 @@
     ],
     "correct": "3 Sharps"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -241,6 +262,7 @@
     ],
     "correct": "2 Flats"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -252,6 +274,7 @@
     ],
     "correct": "3 Flats"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -263,6 +286,7 @@
     ],
     "correct": "C#, F#, and G#"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -274,6 +298,7 @@
     ],
     "correct": "B♭ and E♭"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -285,6 +310,7 @@
     ],
     "correct": "B♭, E♭, and A♭"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -296,6 +322,7 @@
     ],
     "correct": "The Tonic (1), The Third (3), The Fifth (5)"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -307,6 +334,7 @@
     ],
     "correct": "A, C, E"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -318,6 +346,7 @@
     ],
     "correct": "E, G, B"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -329,6 +358,7 @@
     ],
     "correct": "D, F, A"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -340,6 +370,7 @@
     ],
     "correct": "A, C#, E"
   },
+
   {
     "grade": 2,
     "category": "scales",
@@ -351,6 +382,7 @@
     ],
     "correct": "B♭, D, F"
   },
+  
   {
     "grade": 2,
     "category": "scales",
