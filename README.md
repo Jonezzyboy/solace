@@ -11,5 +11,6 @@ npm install
 
 # serve with hot reload at localhost:3000
 nodemon
-```
+
 # open localhost:3000 in a browser to view the application
+```
